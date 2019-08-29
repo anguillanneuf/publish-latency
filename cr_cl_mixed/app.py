@@ -39,7 +39,7 @@ def hello():
     if request.method == 'POST':
         n = int(request.get_json().get("n"))
     else:
-        n = 1
+        n = 10
 
     tracer = initialize_tracer(PROJECT_ID)
 
