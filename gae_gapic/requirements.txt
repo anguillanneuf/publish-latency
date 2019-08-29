@@ -1,0 +1,7 @@
+Flask==1.0.2
+google-cloud-logging==1.11.0
+google-cloud-pubsub==0.42.1
+google-cloud-trace==0.21.0
+opencensus==0.6.0
+opencensus-context==0.1.1
+opencensus-ext-stackdriver==0.4.0
